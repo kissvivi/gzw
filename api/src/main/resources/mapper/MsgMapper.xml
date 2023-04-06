@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kk.api.mapper.MsgMapper">
+  <resultMap id="BaseResultMap" type="com.kk.api.entity.Msg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="msg" jdbcType="VARCHAR" property="msg" />
+    <result column="caeate_time" jdbcType="TIMESTAMP" property="caeateTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="to_user" jdbcType="INTEGER" property="toUser" />
+    <result column="to_com" jdbcType="INTEGER" property="toCom" />
+  </resultMap>
+</mapper>
